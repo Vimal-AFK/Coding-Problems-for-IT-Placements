@@ -10,3 +10,8 @@ Problems focus on real-world **DSA patterns** used in product-based companies.
     - Topics: Sorting, Strings, Custom Comparator  
       👉 [Java Solution](problems/src/FormTheLargestNumber.java)
 
+2📌 **Element with left side smaller and right side greater**
+   - Topics: Sorting, Strings, Custom Comparator  
+     👉 [Java Solution](problems/src/FormTheLargestNumber.java)
+
+
