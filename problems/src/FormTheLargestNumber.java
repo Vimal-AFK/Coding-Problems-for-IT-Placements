@@ -16,7 +16,6 @@ Explanation: Given numbers are [3, 4, 6, 5, 9], the arrangement [9, 6, 5, 4, 3] 
 */
 
 
-import static java.lang.Math.min;
 
 class solution_1 {
     //Custom Comparision
@@ -29,7 +28,7 @@ class solution_1 {
             char c1 = ( i < lenA ) ? a.charAt(i) : b.charAt(i - lenA);
             char c2 = ( i < lenB ) ? b.charAt(i) : a.charAt(i - lenB);
             if ( c1 > c2  ) return 1 ;
-            if ( c1 < c2 ) return -1 ;
+            if ( c1 < c2 ) return -1 ; // b comes first then a ...
         }
         return 0 ;
     }
