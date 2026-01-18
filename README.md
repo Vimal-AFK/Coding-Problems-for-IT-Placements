@@ -1,2 +1,12 @@
-# Coding-Problems-for-IT-Placements
-A collection of coding problems, logical puzzles, and aptitude questions frequently asked in technical placement rounds. Most problems reflect real-world DSA and coding patterns similar to those used in product-based company assessments.
+# Coding Problems for IT Placements
+
+A curated collection of coding problems, logical puzzles, and aptitude questions
+frequently asked in technical placement rounds.  
+Problems focus on real-world **DSA patterns** used in product-based companies.
+
+## Problems
+
+1. 📌 **Form the Largest Number**
+    - Topics: Sorting, Strings, Custom Comparator  
+      👉 [Java Solution](problems/src/FormTheLargestNumber.java)
+
