@@ -19,15 +19,19 @@ Explanation: Given numbers are [3, 4, 6, 5, 9], the arrangement [9, 6, 5, 4, 3] 
 import static java.lang.Math.min;
 
 class solution_1 {
-
+    //Custom Comparision
     public static int compare(String a, String b) {
-        int len = min(a.length(), b.length());
+        int lenA = a.length();
+        int lenB = b.length();
+        int lenTotal = lenA + lenB ;
 
-        for (int i = 0; i < len; i++) {
-            if (a.charAt(i) != b.charAt(i))
-                return a.charAt(i) - b.charAt(i);
+        for ( int i = 0 ; i < lenTotal ; i++ ) {
+            char c1 = ( i < lenA ) ? a.charAt(i) : b.charAt(i - lenA);
+            char c2 = ( i < lenB ) ? b.charAt(i) : a.charAt(i - lenB);
+            if ( c1 > c2  ) return 1 ;
+            if ( c1 < c2 ) return -1 ;
         }
-        return a.length() - b.length();
+        return 0 ;
     }
 
     public static String intToString(int x) {
