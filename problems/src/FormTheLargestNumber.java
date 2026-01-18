@@ -18,6 +18,7 @@ Explanation: Given numbers are [3, 4, 6, 5, 9], the arrangement [9, 6, 5, 4, 3] 
 
 
 class solution_1 {
+
     public static int compare(String a, String b) {
         int lenA = a.length();
         int lenB = b.length();
