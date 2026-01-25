@@ -14,4 +14,7 @@ Problems focus on real-world **DSA patterns** used in product-based companies.
    - Topics: Sorting, Strings, Custom Comparator  
      👉 [Java Solution](problems/src/FormTheLargestNumber.java)
 
+3.FindMissingInSecondArray
+
+4.Bubble Sort Algorithm
 
